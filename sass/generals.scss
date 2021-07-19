@@ -1,3 +1,6 @@
+@import 'variables';
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
   border: none;
   outline: none;
   /*TEMPORAL*/
-  font-family: 'Poppins', serif;
+  font-family: $font-fami;
 }
 
 img, video {
@@ -14,7 +17,7 @@ img, video {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: $oscuro;
 }
 
 ul, li {
@@ -24,6 +27,147 @@ ul, li {
 }
 
 i {
-  color: #000;
+  color: $oscuro;
   font-size: 32px;
+}
+
+.o-2 {
+  order: 2;
+}
+
+//////HEADER//////
+
+.header {
+  position: relative;
+  background: $color-terceario;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__nav {
+    padding: 10px;
+  }
+
+  &__navLinks {
+    
+    a {
+      margin: 0 15px;
+      padding: 0 5px;
+      color: $color-primario;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        color: $color-secundario;
+        border-bottom: 2px solid $color-secundario;
+        transition: all 400ms ease;
+      }
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  &__h1 {
+    order: 2;
+    font-size: 70px;
+    color: $color-secundario;
+  }
+
+  &__wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+  }
+}
+
+//______MAIN_______________
+
+.main {
+  margin: auto;
+  display: flex;
+  max-width: 880px;
+  align-items: center;
+
+  &__h2 {
+    color: $color-secundario;
+    display: inline-block;
+    background: $color-terceario;
+    padding: 3px 20px;
+    border-radius: 10px 10px 10px 0px;
+  }
+}
+
+//__________EXPERIMENTOS
+
+.experimentos__nombre {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: -80px 20px;
+  
+  h2 {
+    transform: translateY(50px);
+    font-size: 86px;
+    letter-spacing: 10px;
+    color: $color-primario;
+  }
+}
+
+.experimentos {
+  margin: auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  
+  &__title {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $color-primario;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  &__video {
+    background: $oscuro;
+    width: 480px;
+    height: 270px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 5px 20px $color-secundario);
+  }
+  
+  &__explicacion {
+    display: inline;
+    width: 600px;
+    
+    p {
+      display: inline;
+    }
+  } 
+}
+
+//--------FOOTER 
+
+.footer {
+  position: relative;
+  height: 200px;
+  background: $color-terceario;
+
+
+  &__wave {
+    position: absolute;
+    top: -75%;
+    left: 0;
+    width: 100%;
+    height: 150px;
+  }
 }
