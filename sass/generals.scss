@@ -15,6 +15,10 @@ img, video {
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: $oscuro;
@@ -40,13 +44,20 @@ i {
 .header {
   position: relative;
   background: $color-terceario;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   &__nav {
+    width: 100%;
+    height: 3rem;
     padding: 10px;
+    text-align: center;
+    position: fixed;
+    background: rgba($color-terceario, .8);
+    backdrop-filter: blur(1.5rem);
+    z-index: 100;
   }
 
   &__navLinks {
@@ -66,16 +77,21 @@ i {
   }
 
   &__title {
+    height: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
   }
 
   &__h1 {
     order: 2;
     font-size: 70px;
     color: $color-secundario;
+  }
+
+  &__science {
+    width: 900px;
   }
 
   &__wave {
@@ -94,6 +110,11 @@ i {
   display: flex;
   max-width: 880px;
   align-items: center;
+  margin-bottom: 40px;
+
+  &__albert {
+    min-width: 50%;
+  }
 
   &__h2 {
     color: $color-secundario;
@@ -102,6 +123,7 @@ i {
     padding: 3px 20px;
     border-radius: 10px 10px 10px 0px;
   }
+
 }
 
 //__________EXPERIMENTOS
@@ -118,6 +140,10 @@ i {
     letter-spacing: 10px;
     color: $color-primario;
   }
+}
+
+#experimentos {
+  height: 100px;
 }
 
 .experimentos {
