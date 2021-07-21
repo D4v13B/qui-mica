@@ -19,6 +19,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba($color-primario, 1);
+}
+
 a {
   text-decoration: none;
   color: $oscuro;
@@ -103,6 +111,41 @@ i {
   }
 }
 
+//--------TEMAS
+
+.temas {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+
+  &__h2 {
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgba($color-primario, 1);
+    margin: 0 40px;
+  }
+  
+  &__descripcion {
+    transform: translateY(-45px);
+
+    p {
+      padding-top: 10px;
+      height: 260px;
+    }
+  }
+  
+  &__img {
+    border-radius: 20px;
+    filter: drop-shadow(0px -10px 10px rgba($color-secundario, .8));
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+
 //______MAIN_______________
 
 .main {
@@ -143,7 +186,7 @@ i {
 }
 
 #experimentos {
-  height: 100px;
+  height: 50px;
 }
 
 .experimentos {
@@ -151,7 +194,7 @@ i {
   max-width: 80%;
   display: flex;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   
   &__title {
     text-align: center;
@@ -187,6 +230,7 @@ i {
   position: relative;
   height: 200px;
   background: $color-terceario;
+  margin-top: 200px;
 
 
   &__wave {
