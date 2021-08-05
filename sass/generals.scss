@@ -63,7 +63,9 @@ i {
 
 .header {
   position: relative;
-  background-color: #089a9a;
+  background:url(../img/fondo.jpeg) center;
+  background-size: cover;
+  background: radial-gradient(rgba($color-terceario, 1), #9198e5);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -87,6 +89,7 @@ i {
       padding: 0 5px;
       color: $color-primario;
       border-bottom: 2px solid transparent;
+      position: relative;
 
       &:hover {
         color: $color-secundario;
@@ -143,8 +146,34 @@ i {
     padding: 3px 20px;
     border-radius: 10px 10px 10px 0px;
   }
-
 }
+
+.video-explicacion{
+  width: 30%;
+  height: 300px;
+  margin: auto;
+}
+
+///////////////////////////////////////////////////////////
+
+.temas{
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+
+  &__tema {
+    width: 50%;
+  }
+
+  &__duo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+}
+
+
 
 //__________EXPERIMENTOS
 
@@ -202,6 +231,17 @@ i {
       display: inline;
     }
   } 
+}
+
+.iframe{
+  text-align: center;
+}
+
+.adivinanzas{
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  display: inline-block;
 }
 
 //--------FOOTER 
