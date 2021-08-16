@@ -152,12 +152,16 @@ i {
   width: 30%;
   height: 300px;
   margin: auto;
+
+  img {
+    border-radius: 30px;
+  }
 }
 
 ///////////////////////////////////////////////////////////
 
 .temas{
-  width: 50%;
+  width: 70%;
   margin: auto;
   padding-top: 50px;
   text-align: center;
@@ -173,9 +177,9 @@ i {
   }
 
   img {
-    transform: translateY(-18px);
-    filter: drop-shadow(0px -10px 4px rgba(255, 255, 255, 0.714));
     border-radius: 20px;
+    width: 250px;
+    filter: drop-shadow(0 0mm 4mm rgba(54, 191, 255, 0.342));
   }
 
   &__duo{
