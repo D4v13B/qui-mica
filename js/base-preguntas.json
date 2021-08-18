@@ -1,0 +1,12 @@
+[
+  {
+    "categoria": "Química",
+    "pregunta": "¿Qué es la electroquímica?",
+    "respuesta": "Estudia las reacciones de Redox",
+    "incorrecta1": "Estudia y la electricidad en conjunto",
+    "incorrecta2": "Estudia la química y lo",
+    "incorrecta3": " la electricidad en conjunto",
+    "imagen": "../img/conductores.jpeg",
+    "object_fit": "cover"
+  }
+]

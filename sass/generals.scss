@@ -63,9 +63,8 @@ i {
 
 .header {
   position: relative;
-  background:url(../img/fondo.jpeg) center;
+  background:url(../img/grupo-banner2.png) center;
   background-size: cover;
-  background: radial-gradient(rgba($color-terceario, 1), #9198e5);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -266,7 +265,7 @@ i {
 
 .footer {
   position: relative;
-  height: 200px;
+  height: 180px;
   background-color: $color-terceario;
   margin-top: 200px;
 
@@ -277,5 +276,12 @@ i {
     left: 0;
     width: 100%;
     height: 150px;
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    color: #fff;
   }
 }
