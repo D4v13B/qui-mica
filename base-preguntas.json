@@ -5,7 +5,8 @@
     "respuesta": "En el estudio de las reacciones de Redox",
     "incorrecta1": "Estudiar la química y la matemática en conjunto",
     "incorrecta2": "Estudio de la química y la electricidad en conjunto",
-    "incorrecta3": "Estudio de la química y el electromagnetismo en conjunto.\r"
+    "incorrecta3": "Estudio de la química y el electromagnetismo en conjunto.\r",
+    "imagen": "https://concepto.de/wp-content/uploads/2019/07/reacciones-redox-reduccion-oxidacion-e1562537182350.jpg"
   },
 
   {
@@ -14,6 +15,7 @@
     "respuesta": "Celda electroquímica",
     "incorrecta1": "Circuito electroquímico",
     "incorrecta2": "Fonda la gloria",
-    "incorrecta3": "Electrocircuito químico\r"
+    "incorrecta3": "Electrocircuito químico\r",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ElectrochemCell.png/250px-ElectrochemCell.png"
   }
 ]
