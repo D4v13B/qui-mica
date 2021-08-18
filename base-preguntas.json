@@ -1,10 +1,19 @@
 [
   {
-    "categoria": "Matemática",
-    "pregunta": "Se fundó la teoria dos grafos",
-    "respuesta": "solucionando un problema que tenia siete puentes. ",
-    "incorrecta1": "Conectando algunos meridianos importantes",
-    "incorrecta2": "En el estudio de los numeros primos",
-    "incorrecta3": "Estudiando aquillas curvas que parecen rectas\r"
+    "categoria": "Electroquímica",
+    "pregunta": "En que se basa la electroquímica",
+    "respuesta": "En el estudio de las reacciones de Redox",
+    "incorrecta1": "Estudiar la química y la matemática en conjunto",
+    "incorrecta2": "Estudio de la química y la electricidad en conjunto",
+    "incorrecta3": "Estudio de la química y el electromagnetismo en conjunto.\r"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Como se llama el circuito básico de la electroquímica",
+    "respuesta": "Celda electroquímica",
+    "incorrecta1": "Circuito electroquímico",
+    "incorrecta2": "Fonda la gloria",
+    "incorrecta3": "Electrocircuito químico\r"
   }
 ]
