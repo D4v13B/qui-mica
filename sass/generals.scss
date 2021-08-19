@@ -275,9 +275,9 @@ i {
   &:hover {
     background: rgba($color-primario, 1);
     transform: scale(1.1);
-
-    a {
-    }
+  }
+  &:active {
+    transform: scale(1);
   }
   
   a{
