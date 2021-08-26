@@ -17,5 +17,85 @@
     "incorrecta2": "Fonda la gloria",
     "incorrecta3": "Electrocircuito químico\r",
     "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ElectrochemCell.png/250px-ElectrochemCell.png"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Nombre de los científicos de DEFA labs",
+    "respuesta": "David, Andrés, Edgar, Frederick",
+    "incorrecta1": "Adrian, Darío, Juan, Pepito",
+    "incorrecta2": "Messi, Cristiano, Mbappé, Haaland",
+    "incorrecta3": "Edgardo, Francisco, Augusto, Daniel\r",
+    "imagen": "https://www.rockandpop.cl/wp-content/uploads/2018/08/datos-cientificos-2-1024x683.jpg"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "¿Cuantos tipos de celdas electroquímicas existen?",
+    "respuesta": "celdas galvánicas, y celdas electrolíticas.",
+    "incorrecta1": "Celdas solares y celdas electroquímicas",
+    "incorrecta2": "Celdas de redox",
+    "incorrecta3": "Celdas de combinación y celdas metálicas\r",
+    "imagen": "https://www.rockandpop.cl/wp-content/uploads/2018/08/datos-cientificos-2-1024x683.jpg"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "¿Qué es una cátodo?",
+    "respuesta": "electrodo que sufre una reacción de reducción,​ mediante la cual un material reduce su estado de oxidación al recibir electrones.",
+    "incorrecta1": "Es parte de la vida",
+    "incorrecta2": "Electrodo que sufre una oxidación al recibir electrones",
+    "incorrecta3": "Anión en el circuito\r",
+    "imagen": "https://www.rockandpop.cl/wp-content/uploads/2018/08/datos-cientificos-2-1024x683.jpg"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "¿Cual es la fórmula de Bicarbonato de sodio?",
+    "respuesta": "NaHCO3",
+    "incorrecta1": "NaHCO2",
+    "incorrecta2": "NaHCO",
+    "incorrecta3": "Ninguna de las anteriores",
+    "imagen": "https://merkadoo.com/pub/media/catalog/product/cache/94fa5753886b33168fef394c99e1c8bb/1/_/1_1jcy85jtkmdlcxul.png"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Qué es una celda electroquímica?",
+    "respuesta": "dispositivo capaz de obtener energía eléctrica a partir de reacciones químicas",
+    "incorrecta1": "No sé",
+    "incorrecta2": "Estás no son",
+    "incorrecta3": "La profe sabe la respuesta",
+    "imagen": "https://cdn.fs.teachablecdn.com/vDq9Cp9KQSSR9qJ0lvAp"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Cómo se llama la profesora?",
+    "respuesta": "Lisbeth La Cruz",
+    "incorrecta1": "Lisbeth de La Cruz",
+    "incorrecta2": "Lizbeth La Cruz",
+    "incorrecta3": "Ninguna de las anteriores",
+    "imagen": "https://static.diariofemenino.com/media/13501/c/cartas-de-agradecimiento-a-un-profesor-o-profesora-gracias-por-todo-lg.jpg"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Proceso más usado de la electroquímica",
+    "respuesta": "Electrolísis",
+    "incorrecta1": "Galvanización",
+    "incorrecta2": "Mezcla de materiales",
+    "incorrecta3": "Mezclar agua con electricidad",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ElectrochemCell.png/250px-ElectrochemCell.png"
+  },
+
+  {
+    "categoria": "Electroquímica",
+    "pregunta": "Qué es un conductor?",
+    "respuesta": "material que ofrece poca resistencia al movimiento de la carga eléctrica.",
+    "incorrecta1": "Material que no conduce electricidad",
+    "incorrecta2": "Material que conduce solo agua",
+    "incorrecta3": "Material que cuenta chistes",
+    "imagen": "https://notatecnologica.com/wp-content/uploads/2020/10/caracteristicas-de-un-conductor-electrico-6.jpg"
   }
 ]
