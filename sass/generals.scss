@@ -287,6 +287,34 @@ i {
 
 }
 
+//--------CURIOSIDADES
+.title{
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgba($color-primario, 1);
+  margin-top: 30px;
+}
+
+.curiosidades{
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .curiosidad {
+    width: 45%;
+    margin: 30px;
+    text-align: center;
+
+    img {
+      width: 400px;
+    }
+  }
+}
+
 //--------FOOTER 
 
 .footer {
@@ -294,7 +322,6 @@ i {
   height: 180px;
   background-color: $color-terceario;
   margin-top: 200px;
-
 
   &__wave {
     position: absolute;
